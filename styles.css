@@ -105,6 +105,9 @@ input[type="checkbox"]:checked + label {
   text-decoration: line-through;
   color: var(--text-disabled);
 }
+.list-item > input[type="checkbox"]:checked {
+  background-color: aqua;
+}
 small::before {
   content: "(";
   margin-left: 4px;
